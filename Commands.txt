@@ -1,0 +1,43 @@
+python --version
+pip --version
+
+create env:
+-----------
+pip show virtualenv
+pip install virtualenv
+virtualenv --version
+virtualenv .env
+
+Windows		:    .env\Scripts\activate
+Linux/Mac	:    source .env/bin/activate
+
+pip list ---> list all libraries
+Windows		:    .env\Scripts\deactivate
+Linux/Mac	:    .env/bin/deactivate
+
+
+pip freeze
+pip uninstall PackageName
+pip uninstall PackageName==Version
+pip uninstall PackageName1 PackageName2 PackageName3
+
+
+pip install selenium
+Already Project:-
+-----------------
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/NubeEra-Samples/PySelAutoLoginTest.git
+git push -u origin main
+
+
+
+echo "# PySelAutoLoginTest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/NubeEra-Samples/PySelAutoLoginTest.git
+git push -u origin main
