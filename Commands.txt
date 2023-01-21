@@ -41,3 +41,9 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/NubeEra-Samples/PySelAutoLoginTest.git
 git push -u origin main
+
+
+
+Create List of Libraries:
+
+pip freeze > Requirements.txt
